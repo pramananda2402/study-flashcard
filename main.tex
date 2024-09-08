@@ -1,0 +1,86 @@
+\documentclass{beamer}
+
+%--------------beamer---------------
+\usetheme{Warsaw}
+\usecolortheme{rose}
+\usefonttheme{professionalfonts}
+\usepackage{tikz}
+\useinnertheme{rectangles}
+\useoutertheme{miniframes}
+\setbeamercolor*{mini frame}{fg=black,bg=white}
+\definecolor{blizzardblue}{rgb}{0.67, 0.9, 0.93}
+\setbeamercolor{section in head/foot}{fg=black, bg=blizzardblue}
+\definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}
+\definecolor{caribbeangreen}{rgb}{0.0, 0.8, 0.6}
+\definecolor{carnationpink}{rgb}{1.0, 0.65, 0.79}
+\definecolor{capri}{rgb}{0.0, 0.75, 1.0}
+\definecolor{green(pigment)}{rgb}{0.0, 0.65, 0.31}
+\definecolor{grannysmithapple}{rgb}{0.66, 0.89, 0.63}
+\defbeamertemplate{subsection in toc}{bullets}{%
+  \leavevmode
+  \parbox[t]{1em}{\textbullet\hfill}%
+  \parbox[t]{\dimexpr\textwidth-1em\relax}{\inserttocsubsection}\par}
+\defbeamertemplate{section in toc}{sections numbered roman}{%
+  \leavevmode%
+  \MakeUppercase{\romannumeral\inserttocsectionnumber}.\ %
+  \inserttocsection\par}
+
+\setbeamertemplate{section in toc}[sections numbered roman]
+\setbeamertemplate{subsection in toc}[bullets]
+
+
+%-------------packages--------------
+\usepackage{graphicx} 
+\usepackage{hyperref}
+\usepackage{tkz-euclide,subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+	
+\usetikzlibrary{shapes.geometric}
+
+%------------title page-------------
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\title{Edulumo}
+\author[Group Members]{
+Pramananda Sarkar - 2005002 \\
+Turjoy Dey - 2005016 \\
+Mostafa Rifat Tazwar - 2005020 \\
+Gourab Biswas - 2005034 \\
+Mahamudul Hasan Fahim - 2005043 \\
+Sheikh Rahat Mahmud - 2005048
+}
+\institute[VFU] % (optional)
+{
+ Department of Computer Science and Technology, BUET
+}
+\date{Wednesday 11, 2024}
+
+\AtBeginSection
+{
+\begin{frame}{Outline}
+    \tableofcontents[currentsection]
+\end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Table Of Contents}
+    \tableofcontents
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{Introduction}
+\end{frame}
+
+\end{document}
