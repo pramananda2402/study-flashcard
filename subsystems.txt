@@ -1,0 +1,12 @@
+A. flashcard generation and update:
+    1. Manual Flashacard generation
+    2. AI generation by text or topics
+    3. AI generation by doc(pdf, ppt)
+B. store and sort flashcard
+C. shear and import falshcard with other people
+D. A showcasing system where show popular and rated flashcard on created section
+E. Managed Section(), Max cardCreation limit by admin.                      // add more functionality here
+    -- admin can create new section (each card must be within one section that created by admin. User can also create his own section for his own storing system. But when want to shear it in global section then it must contain the section that is created by admin )
+    -- limited the user created flashcard number (bussiness rule)
+F. A chatbot helping to explore our website
+G. pricing
